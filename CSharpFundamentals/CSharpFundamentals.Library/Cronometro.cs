@@ -29,7 +29,7 @@ public class Cronometro
         string contagemRegressiva = Console.ReadLine()!.ToUpper();
 
         long tempo = time * multiplicador;
-        bool contReg = contagemRegressiva == "S" ? true : false;
+        bool contReg = contagemRegressiva == "S";
 
         PreIniciar(tempo, contReg);
     }

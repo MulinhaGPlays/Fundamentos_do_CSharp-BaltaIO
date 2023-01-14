@@ -6,53 +6,52 @@ public class Calculadora
 {
     public static void Menu()
     {
-        while (true)
+        float n1, n2, resultado;
+        Console.Clear();
+
+        try
         {
-            float n1, n2, resultado;
-            Console.Clear();
+            Console.WriteLine("Selecione uma opção: " +
+                "\n 1 - Soma " +
+                "\n 2 - Divisão " +
+                "\n 3 - Subtração " +
+                "\n 4 - Multiplicação");
 
-            try
+            var operador = short.Parse(Console.ReadLine()!) switch
             {
-                Console.WriteLine("Selecione uma opção: " +
-                    "\n 1 - Soma " +
-                    "\n 2 - Divisão " +
-                    "\n 3 - Subtração " +
-                    "\n 4 - Multiplicação");
+                1 => ECalculadora.SOMA,
+                2 => ECalculadora.DIVISAO,
+                3 => ECalculadora.SUBTRACAO,
+                4 => ECalculadora.MULTIPLICACAO,
+                _ => ECalculadora.SOMA,
+            };
 
-                var operador = short.Parse(Console.ReadLine()!) switch
-                {
-                    1 => ECalculadora.SOMA,
-                    2 => ECalculadora.DIVISAO,
-                    3 => ECalculadora.SUBTRACAO,
-                    4 => ECalculadora.MULTIPLICACAO,
-                    _ => ECalculadora.SOMA,
-                };
+            Console.WriteLine("Digite o primeiro valor:");
+            n1 = float.Parse(Console.ReadLine()!);
 
-                Console.WriteLine("Digite o primeiro valor:");
-                n1 = float.Parse(Console.ReadLine()!);
+            Console.WriteLine("Digite o segundo valor:");
+            n2 = float.Parse(Console.ReadLine()!);
 
-                Console.WriteLine("Digite o segundo valor:");
-                n2 = float.Parse(Console.ReadLine()!);
+            resultado = Calcular(n1, n2, operador);
 
-                resultado = Calcular(n1, n2, operador);
+            Console.WriteLine($"Resultado: {resultado}");
+            Console.WriteLine("\n Deseja encerrar?\n Digite S/N");
 
-                Console.WriteLine($"Resultado: {resultado}");
-                Console.WriteLine("\n Deseja encerrar?\n Digite S/N");
-
-                if (Console.ReadLine()!.ToUpper() == "S") break;
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("Você não digitou um número, tente novamente");
-                Console.WriteLine("Pressione qualquer tecla para fechar...");
-                Console.ReadKey();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Foi encontrado o seguinte erro: {ex}");
-                Console.WriteLine("Pressione qualquer tecla para fechar...");
-                Console.ReadKey();
-            }
+            if (Console.ReadLine()!.ToUpper() == "S") Environment.Exit(0);
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Você não digitou um número, tente novamente");
+            Console.WriteLine("Pressione qualquer tecla para fechar...");
+            Console.ReadKey();
+            Menu();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Foi encontrado o seguinte erro: {ex}");
+            Console.WriteLine("Pressione qualquer tecla para fechar...");
+            Console.ReadKey();
+            Menu();
         }
     }
 
