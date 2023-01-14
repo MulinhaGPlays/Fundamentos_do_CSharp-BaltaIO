@@ -1,0 +1,12 @@
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\bin\Debug\net7.0\CSharpFundamentals.Library.deps.json
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\bin\Debug\net7.0\CSharpFundamentals.Library.dll
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\bin\Debug\net7.0\CSharpFundamentals.Library.pdb
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\CSharpFundamentals.Library.csproj.AssemblyReference.cache
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\CSharpFundamentals.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\CSharpFundamentals.Library.AssemblyInfoInputs.cache
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\CSharpFundamentals.Library.AssemblyInfo.cs
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\CSharpFundamentals.Library.csproj.CoreCompileInputs.cache
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\CSharpFundamentals.Library.dll
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\refint\CSharpFundamentals.Library.dll
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\CSharpFundamentals.Library.pdb
+C:\Users\MulinhaGPlays\Documents\GitHub\Fundamentos_do_CSharp-BaltaIO\CSharpFundamentals\CSharpFundamentals.Library\obj\Debug\net7.0\ref\CSharpFundamentals.Library.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CSharpFundamentals.Console/1.0.0": {
+        "dependencies": {
+          "CSharpFundamentals.Library": "1.0.0"
+        },
+        "runtime": {
+          "CSharpFundamentals.Console.dll": {}
+        }
+      },
+      "CSharpFundamentals.Library/1.0.0": {
+        "runtime": {
+          "CSharpFundamentals.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpFundamentals.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSharpFundamentals.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

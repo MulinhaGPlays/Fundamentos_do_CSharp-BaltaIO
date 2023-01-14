@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "CSharpFundamentals.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CSharpFundamentals.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpFundamentals.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpFundamentals.Library/1.0.0": {
+      "type": "project",
+      "path": "../CSharpFundamentals.Library/CSharpFundamentals.Library.csproj",
+      "msbuildProject": "../CSharpFundamentals.Library/CSharpFundamentals.Library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "CSharpFundamentals.Library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MulinhaGPlays\\.nuget\\packages\\": {},
+    "D:\\SDKs\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Fundamentos_do_CSharp-BaltaIO\\CSharpFundamentals\\CSharpFundamentals.Console\\CSharpFundamentals.Console.csproj",
+      "projectName": "CSharpFundamentals.Console",
+      "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Fundamentos_do_CSharp-BaltaIO\\CSharpFundamentals\\CSharpFundamentals.Console\\CSharpFundamentals.Console.csproj",
+      "packagesPath": "C:\\Users\\MulinhaGPlays\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Fundamentos_do_CSharp-BaltaIO\\CSharpFundamentals\\CSharpFundamentals.Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\SDKs\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\MulinhaGPlays\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Fundamentos_do_CSharp-BaltaIO\\CSharpFundamentals\\CSharpFundamentals.Library\\CSharpFundamentals.Library.csproj": {
+              "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Fundamentos_do_CSharp-BaltaIO\\CSharpFundamentals\\CSharpFundamentals.Library\\CSharpFundamentals.Library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
