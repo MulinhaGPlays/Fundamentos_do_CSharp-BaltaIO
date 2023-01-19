@@ -5,7 +5,7 @@ public class Cronometro
     public static void Menu()
     {
         Console.Clear();
-        Console.WriteLine("Cronômetro" +
+        Console.WriteLine(@"Cronômetro" +
             "\n S = Segundos => 10s = 10 segundos" +
             "\n M = Minutos => 1m = 1 minuto" +
             "\n H = Horas => 1h = 1 hora" +
